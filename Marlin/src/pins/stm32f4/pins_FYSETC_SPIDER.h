@@ -33,13 +33,15 @@
 //
 #if NO_EEPROM_SELECTED
   #undef NO_EEPROM_SELECTED
-  //#define FLASH_EEPROM_EMULATION
+  #define FLASH_EEPROM_EMULATION
   //#define SRAM_EEPROM_EMULATION
-  #define I2C_EEPROM
+  //#define I2C_EEPROM
 #endif
 
 #if ENABLED(I2C_EEPROM)
-  #define MARLIN_EEPROM_SIZE              0x1000  // 4K
+  #define MARLIN_EEPROM_SIZE                0x1000  // 4K
+  #define I2C_SCL_PIN                       PB8
+  #define I2C_SDA_PIN                       PB9
 #endif
 
 //
