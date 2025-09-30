@@ -88,7 +88,7 @@
 
 // Choose the name from boards.h that matches your setup
 #ifndef MOTHERBOARD
-  #define MOTHERBOARD BOARD_FYSETC_SPIDER_V2_2
+  #define MOTHERBOARD BOARD_FYSETC_SPIDER_V3_0_H7 //BOARD_FYSETC_SPIDER_V2_2
 #endif
 
 // @section serial

@@ -90,8 +90,8 @@
   #define TMC_SPI_SCK                       PE12
 #endif
 
-// Avoid conflict with TIMER_TONE defined in variant  //TODO check
-#define STEP_TIMER 10
+// Avoid conflict with TIMER_TONE defined in variant  //TODO check H7 do NOT have TIM10
+#define STEP_TIMER 8
 
 //
 // Limit Switches
